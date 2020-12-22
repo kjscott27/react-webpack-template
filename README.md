@@ -1,5 +1,5 @@
 # STEPS
-## CREATE PROJECT
+## Create Project
 ### Create a Directory
 * `cd ~/Documents/Code`
 * `mkdir projectname`
@@ -8,13 +8,13 @@
 ### Create a `package.json`
 * `npm init --yes`
 
-## NODE MODULES
-* **REACT**: 
+## Babel & React Modules
+* **React**: 
 * * `npm i react react-dom`
 * **Babel Dev Dependancies**
 * * `npm i -D @babel/preset-react @babel/preset-env @babel/core babel-loader @babel/plugin-proposal-class-properties`
 
-## BABEL CONFIG
+## Babel Configuration
 ### Description
 * We're going to use `@babel/preset-env` to target the last few versions of browsers for suppoert. This will ensure that when the browser is updated it will stop transpiling to the older browser version and will transpile for the new one.
 * Setting `modules: false` is like saying: "Hey Babel, don't do anything with my modules; let Webpack handle that."
